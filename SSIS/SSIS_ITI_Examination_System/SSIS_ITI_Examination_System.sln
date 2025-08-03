@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "SSIS_ITI_Examination_System", "SSIS_ITI_Examination_System\SSIS_ITI_Examination_System.dtproj", "{CEE03C43-86E1-A19B-3CD7-7F81A7E05211}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEE03C43-86E1-A19B-3CD7-7F81A7E05211}.Development|Default.ActiveCfg = Development
+		{CEE03C43-86E1-A19B-3CD7-7F81A7E05211}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63497A4E-6B2A-491E-9BF2-C0CC80BCAB79}
+	EndGlobalSection
+EndGlobal

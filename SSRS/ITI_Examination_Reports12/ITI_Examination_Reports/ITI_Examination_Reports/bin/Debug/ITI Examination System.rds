@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="ITI Examination System">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=DESKTOP-0A40RIV\MSSQLSERVER01;Initial Catalog="ITI Examination System";TrustServerCertificate=True</ConnectString>
+    <IntegratedSecurity>true</IntegratedSecurity>
+    <Prompt>Specify a user name and password for data source ITI_Examination_System</Prompt>
+  </ConnectionProperties>
+  <DataSourceID>ce75f5b2-44a3-4a33-80ce-503c51143cdf</DataSourceID>
+</RptDataSource>

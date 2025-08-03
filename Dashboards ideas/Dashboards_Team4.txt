@@ -1,0 +1,82 @@
+**Team 4:
+Abdelaziz	
+Ahmed Khaled	
+Marwa	
+Areej	
+----------------------------------------------------------------------------------------------------------
+--Performance & Exams:
+
+1-track performance Dashboard
+** no.courses, track name, no.students, students performance in each track, average score for all students.
+
+2-Course Analytics Dashboard
+**number of attempts for each course, students performance in each course, average score for all students.
+
+3-Exam Analytics Dashboard
+**Compare average scores, exam durations.
+
+4-Student Exam Performance Dashboard
+**Analyze scores per student across exams, average scores, and performance trends over time.
+
+5-Student Progress Tracker
+**Monitor individual student scores and improvements across time and subjects.
+
+6-Top-Performing Students // Lowest-Performing Students
+**Listing students with the highest scores, Identifying students who need academic support.
+--------------------------------------------------------------------------------------------
+--Department & Instructor:
+
+7-Departmental Performance Overview
+**Compare student performance, average scores, and exam pass rates across departments.
+
+8-Instructor Course Load Dashboard
+**Show which instructors are teaching which courses, with exam performance metrics per course.
+
+9-Instructor Effectiveness Dashboard
+**Link student performance with instructors to evaluate effectiveness based on average scores.
+---------------------------------------------------------------------------------------------
+--Course & Content:
+
+10-Course Popularity and Outcomes
+**Track course enrollments, pass rates, and average scores to determine course quality.
+---------------------------------------------------------------------------------------------
+--Question & Answer:
+
+11-Question Type Performance Dashboard
+**Visualize student success across question types (MCQ, T/F) with accuracy metrics.
+
+12-MCQ Analysis Dashboard
+**Breakdown of choice selections, correct answers, and common misconceptions per question.
+
+13-T/F Analysis Dashboard
+**Breakdown of T/F Questions
+
+14-Student Answer Review Dashboard
+**Track how often students selected correct vs. incorrect choices and time spent per question.
+----------------------------------------------------------------------------------------------
+--Certifications & Projects:
+
+15-Certificate Achievement Dashboard
+**Track which students earned certifications, from whom, and when.
+
+16-Freelance Project Portfolio Dashboard
+**View student freelance projects, earnings, client distribution, and completion timelines.
+----------------------------------------------------------------------------------------------
+--Hiring & Career Outcomes:
+
+17-Student Hiring Status Dashboard
+**Monitor how many students were hired, hiring rates by department, Track, and company stats.
+
+18-Company Hiring Overview Dashboard
+**Visualize which companies hire most students and filter by international vs. local.
+
+19-Job Position Analytics Dashboard
+**Analyze the types of positions students are hired into, organized by title and department.
+-----------------------------------------------------------------------------------------------
+--Overall:
+
+20-Student Demographics Dashboard
+**Display student age, gender distribution, and department-wise demographics.
+
+21-Education to Employment Pipeline Dashboard
+**Combine academic, project, and hiring data to show the full journey from learning to employment.

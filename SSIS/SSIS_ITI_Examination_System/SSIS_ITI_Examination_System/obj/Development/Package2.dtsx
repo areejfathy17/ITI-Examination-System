@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="6/24/2025 9:43:52 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-GFKLOJP"
+  DTS:CreatorName="DESKTOP-GFKLOJP\Areej"
+  DTS:DTSID="{B0F59A21-9058-4AD0-BE84-934E4CFA926B}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5685.0"
+  DTS:LocaleID="3073"
+  DTS:ObjectName="Package2"
+  DTS:PackageType="5"
+  DTS:VersionBuild="2"
+  DTS:VersionGUID="{B0663D05-2B35-4B55-8772-2A6F6475A7B9}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[.\AREEJ.ITI_Examination_System]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{506ED491-34C1-4E84-825D-D2723656D0C2}"
+      DTS:ObjectName=".\AREEJ.ITI_Examination_System">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=.\AREEJ;Initial Catalog=ITI_Examination_System;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{506ED491-34C1-4E84-825D-D2723656D0C2}.\AREEJ.ITI_Examination_System;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[.\AREEJ.New_DBWH]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{ED83B824-184A-4884-A650-90C215457A45}"
+      DTS:ObjectName=".\AREEJ.New_DBWH">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=.\AREEJ;Initial Catalog=New_DBWH;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{ED83B824-184A-4884-A650-90C215457A45}.\AREEJ.New_DBWH;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables />
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
