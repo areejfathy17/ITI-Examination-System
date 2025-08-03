@@ -4,10 +4,9 @@ This project presents a complete solution to manage and automate the examination
 
 ## Team Members
 
-- Ahmed Khaled
+- [Ahmed Khaled](https://github.com/ZezoGobara)
 - [Abdelaziz Ragab](https://github.com/ZezoGobara)
-- Areej Fathy
-- Marwa Aboelenin
+- [Marwa Aboelenin](https://github.com/Marwa-13)
 
 ## Project Overview
 
