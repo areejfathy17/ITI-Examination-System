@@ -9,7 +9,6 @@ This project presents a complete solution to manage and automate the examination
 - [Marwa Aboelenin](https://github.com/Marwa-13)
 - [Areej Fathy](https://github.com/areejfathy17)
 - ج
-
 ## Project Overview
 
 The system streamlines exam workflows through:
