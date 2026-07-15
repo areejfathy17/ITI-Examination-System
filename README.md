@@ -115,14 +115,6 @@ The warehouse follows a star schema architecture with conformed dimensions (`Dim
 The ETL pipeline extracts data from multiple OLTP sources (Person, Instructor, Phone tables), sorts and merges them through Merge Join transformations, applies business logic via a Derived Column transformation, and loads the final conformed dataset into the data warehouse destination table.
 
 ![SSIS ETL Workflow](https://github.com/areejfathy17/ITI-Examination-System/blob/main/SSIS/SSIS_Screens/Data%20Flow%20of%20%20Dim_Ins.png)
-
-**Workflow explanation:**
-1. **OLE DB Sources** extract raw data from Person, Instructor, and Phone tables.
-2. **Sort transformations** prepare each dataset for merge operations.
-3. **Merge Join transformations** combine related datasets on common keys.
-4. **Derived Column** applies calculated/business-rule fields.
-5. **OLE DB Destination** loads the final transformed dataset into the warehouse.
-
 ---
 
 ## 📊 SSRS Reports
@@ -136,15 +128,15 @@ The ETL pipeline extracts data from multiple OLTP sources (Person, Instructor, P
 <tr><td>📄 <b>Department Performance Report</b></td><td>Aggregated performance metrics rolled up by department.</td></tr>
 </table>
 
-![SSRS Report Sample](https://github.com/areejfathy17/ITI-Examination-System/blob/main/SSRS/Exam%20Question%20FreeForm.pdf)
+![SSRS Report Sample](https://github.com/areejfathy17/ITI-Examination-System/blob/main/SSRS/SSRS%20Reports.png)
 
 ---
 
 ## 📈Sample of Power BI Dashboards
 
 A suite of 25+ interactive dashboards was developed to support decision-making at every organizational level — from executive summaries to granular question-level quality analysis.
-![Student Distribution Overview](https://github.com/areejfathy17/ITI-Examination-System/blob/main/Power%20BI%20Dashboards/student%20overview.png)
 ![General Exam Results Analysis](https://github.com/areejfathy17/ITI-Examination-System/blob/main/Power%20BI%20Dashboards/General%20Exam.png)
+![Student Distribution Overview](https://github.com/areejfathy17/ITI-Examination-System/blob/main/Power%20BI%20Dashboards/student%20overview.png)
 
 ## 🧰 Technology Stack
 
@@ -162,49 +154,6 @@ A suite of 25+ interactive dashboards was developed to support decision-making a
 | Testing & Validation | Redgate SQL Data Generator, Excel | Generated realistic sample data and validated report/dashboard accuracy. |
 
 ---
-
-## 📂 Project Repository Structure
-
-```
-ITI-Examination-System/
-│
-├── Database/
-│   ├── ERD/                     # Draw.io ERD source files
-│   ├── Schema/                  # Table creation scripts
-│   ├── StoredProcedures/        # T-SQL stored procedures (28)
-│   └── SampleData/              # Redgate-generated test data scripts
-│
-├── DataWarehouse/
-│   ├── StarSchema/               # Fact & Dimension table scripts
-│   └── DWH_Diagram/               # Warehouse schema diagrams
-│
-├── ETL/
-│   ├── SSIS_Packages/             # .dtsx SSIS package files
-│   └── DataFlow_Diagrams/         # ETL data flow documentation
-│
-├── SSRS_Reports/
-│   ├── StudentGradesReport.rdl
-│   ├── StudentDetailsByDepartment.rdl
-│   ├── InstructorCoursesReport.rdl
-│   ├── ExamQuestionsReport.rdl
-│   ├── StudentAnswersReport.rdl
-│   └── DepartmentPerformanceReport.rdl
-│
-├── PowerBI_Dashboards/
-│   ├── ExecutiveDashboard.pbix
-│   ├── StudentPerformanceDashboard.pbix
-│   ├── CourseAnalyticsDashboard.pbix
-│   ├── InstructorDashboard.pbix
-│   ├── EmploymentDashboard.pbix
-│   └── QuestionQualityDashboard.pbix
-│
-├── images/                        # README image assets
-│
-└── README.md
-```
-
----
-
 ## 👥 Team Members
 
 <table align="center">
