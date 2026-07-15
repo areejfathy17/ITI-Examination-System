@@ -169,7 +169,7 @@ A suite of 25+ interactive dashboards was developed to support decision-making a
 </tr>
 <tr>
   <td>Abdelaziz Ragab</td>
-  <td><a href="#">GitHub Profile</a></td>
+  <td><a href="[#](https://github.com/abdelaziz)">GitHub Profile</a></td>
   <td><a href="#">LinkedIn Profile</a></td>
 </tr>
 <tr>
@@ -179,8 +179,7 @@ A suite of 25+ interactive dashboards was developed to support decision-making a
 </tr>
 <tr>
   <td><b>Areej Fathy</b></td>
-  <td><a href="https://github.com/areejfathy17">github.com/areejfathy17</a></td>
-   <td><a href="https://www.linkedin.com/in/areej-fathy/">LinkedIn Profile</a></td>
+  <td><a href="https://github.com/areejfathy17">GitHub Profile</a></td>
 </tr>
 </table>
 
