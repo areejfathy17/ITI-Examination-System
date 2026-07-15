@@ -180,7 +180,7 @@ A suite of 25+ interactive dashboards was developed to support decision-making a
 <tr>
   <td><b>Areej Fathy</b></td>
   <td><a href="https://github.com/areejfathy17">github.com/areejfathy17</a></td>
-  <td><a href="#">"https://www.linkedin.com/in/areej-fathy/"</a></td>
+   <td><a href="https://www.linkedin.com/in/areej-fathy/">LinkedIn Profile</a></td>
 </tr>
 </table>
 
