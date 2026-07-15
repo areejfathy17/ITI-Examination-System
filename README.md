@@ -85,27 +85,19 @@ Power BI Dashboards
 
 ---
 
-## 🏗 System Architecture
-
-The architecture follows a layered BI approach: transactional data is captured in the OLTP system, transformed and loaded into a dimensional warehouse via SSIS, and consumed by both SSRS (operational reporting) and Power BI (analytical dashboards).
-
-![(images/architecture.png](https://github.com/areejfathy17/ITI-Examination-System/blob/main/ERD/Final_ERD.drawio%20.png)
-
----
-
 ## 🗄 Database Design
 
 ### Entity Relationship Diagram (ERD)
 
 The ERD models the complete academic ecosystem — Person, Student, Instructor, Manager, Course, Track, Department, Exam, Questions, Branch, Intake, Certificate, Company, and Freelance Platform entities — connected through supertype/subtype relationships and many-to-many associations resolved via junction tables.
 
-![ERD Design](images/erd.png)
+![(images/architecture.png](https://github.com/areejfathy17/ITI-Examination-System/blob/main/ERD/Final_ERD.drawio%20.png)
 
 ### Database Mapping
 
 The logical ERD was mapped into a fully normalized relational schema, resolving all many-to-many relationships into dedicated junction tables (e.g., `Ins_Crs`, `Crs_Qst`, `Track_Crs`, `Std_Exam_Qst`) and applying surrogate/foreign keys across 29 physical tables.
 
-![Database Mapping](images/mapping.png)
+![Database Mapping](images/mapping.png)](https://github.com/areejfathy17/ITI-Examination-System/blob/main/Mapping/Mapping_ITI_Examination_System.drawio%20.png)
 
 ---
 
@@ -115,7 +107,7 @@ The logical ERD was mapped into a fully normalized relational schema, resolving 
 
 The warehouse follows a star schema architecture with conformed dimensions (`Dim_Student`, `Dim_Instructor`, `Dim_Course`, `Dim_Exam`, `Dim_Branch`, `Dim_Track`, `Dim_Department`, `Dim_Intake`, `Dim_Company`, `Dim_Certificate`, `Dim_Time`) surrounding multiple fact tables (`Fact_Std_Exam_Qst`, `Fact_Std_Company`, `Fact_Std_Freelance`, `Fact_Student_Crtf`). This design supports fast aggregation and slicing across student performance, exam results, and career-related metrics.
 
-![Data Warehouse Schema](images/dwh_schema.png)
+![Data Warehouse Schema](images/dwh_schema.png)](https://github.com/areejfathy17/ITI-Examination-System/blob/main/Data%20Model%20Schema/ITI_EXamination_DWH_Schema.png)
 
 **Fact & Dimension Architecture:**
 - **Fact tables** capture measurable, transactional events — exam attempts, grades, correct answers, certificates earned, and company/freelance engagements.
@@ -127,7 +119,7 @@ The warehouse follows a star schema architecture with conformed dimensions (`Dim
 
 The ETL pipeline extracts data from multiple OLTP sources (Person, Instructor, Phone tables), sorts and merges them through Merge Join transformations, applies business logic via a Derived Column transformation, and loads the final conformed dataset into the data warehouse destination table.
 
-![SSIS ETL Workflow](images/ssis_etl.png)
+![SSIS ETL Workflow]([images/ssis_etl.png](https://github.com/areejfathy17/ITI-Examination-System/blob/main/SSIS/SSIS_Screens/Data%20Flow%20of%20%20Dim_Ins.png))
 
 **Workflow explanation:**
 1. **OLE DB Sources** extract raw data from Person, Instructor, and Phone tables.
@@ -149,17 +141,13 @@ The ETL pipeline extracts data from multiple OLTP sources (Person, Instructor, P
 <tr><td>📄 <b>Department Performance Report</b></td><td>Aggregated performance metrics rolled up by department.</td></tr>
 </table>
 
-![SSRS Report Sample](images/ssrs_report.png)
+![SSRS Report Sample]([images/ssrs_report.png](https://github.com/areejfathy17/ITI-Examination-System/blob/main/SSRS/Exam%20Question%20FreeForm.pdf))
 
 ---
 
-## 📈 Power BI Dashboards
+## 📈Sample of Power BI Dashboards
 
 A suite of 25+ interactive dashboards was developed to support decision-making at every organizational level — from executive summaries to granular question-level quality analysis.
-
-### 🧭 Executive Dashboard
-High-level KPIs summarizing enrollment, performance, and operational health across the institute.
-
 ### 🎓 Student Performance Dashboard
 ![Student Distribution Overview](images/student_distribution.png)
 Tracks student distribution by branch, department, track, and intake, along with gender balance and enrollment trends — featuring drillthrough into individual student records.
@@ -174,7 +162,7 @@ Visualizes instructor workload, course assignments, and department distribution.
 Surfaces post-graduation outcomes, including company placements and freelance engagements.
 
 ### ✅ Question Quality Dashboard
-![General Exam Results Analysis](images/exam_results.png)
+![General Exam Results Analysis]("D:\ITP_2025\Final project\Screenshot 2025-07-29 213135.png")
 Evaluates exam and question-level quality metrics — pass rates, average grades, and correct-answer percentages by course — enabling continuous exam-bank improvement.
 
 **Key capabilities used across dashboards:**
