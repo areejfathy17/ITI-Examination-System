@@ -162,7 +162,7 @@ Visualizes instructor workload, course assignments, and department distribution.
 Surfaces post-graduation outcomes, including company placements and freelance engagements.
 
 ### ✅ Question Quality Dashboard
-![General Exam Results Analysis]("D:\ITP_2025\Final project\Screenshot 2025-07-29 213135.png")
+![General Exam Results Analysis](D:\ITP_2025\Final project\Screenshot 2025-07-29 213135.png)
 Evaluates exam and question-level quality metrics — pass rates, average grades, and correct-answer percentages by course — enabling continuous exam-bank improvement.
 
 **Key capabilities used across dashboards:**
