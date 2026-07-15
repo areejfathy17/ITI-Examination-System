@@ -89,7 +89,7 @@ Power BI Dashboards
 
 The architecture follows a layered BI approach: transactional data is captured in the OLTP system, transformed and loaded into a dimensional warehouse via SSIS, and consumed by both SSRS (operational reporting) and Power BI (analytical dashboards).
 
-![System Architecture](images/architecture.png)
+![(images/architecture.png](https://github.com/areejfathy17/ITI-Examination-System/blob/main/ERD/Final_ERD.drawio%20.png)
 
 ---
 
