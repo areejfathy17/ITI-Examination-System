@@ -43,12 +43,7 @@
 ---
 
 ## 📌 Project Overview
-
-Examination management is one of the most operationally sensitive processes in any academic institution — spanning student records, course delivery, instructor assignments, exam generation, grading, and performance reporting. Manual handling of this process often leads to fragmented data, inconsistent reporting, and slow decision-making.
-
-The **ITI Examination Analytics & Business Intelligence Platform** was built to solve this problem end-to-end. It combines a normalized OLTP database, a dimensional data warehouse, automated ETL pipelines, operational SSRS reports, and executive Power BI dashboards into a single, cohesive analytical ecosystem — enabling ITI's academic and administrative teams to make faster, data-driven decisions around student performance, instructor workload, course effectiveness, and exam quality.
-
-This repository documents the complete lifecycle of the solution: from business requirements and ERD design, through database development and stored procedures, into a star-schema data warehouse populated via SSIS, and finally surfaced through SSRS operational reports and Power BI analytical dashboards.
+A comprehensive Business Intelligence and Analytics platform that automates examination management through database engineering, ETL pipelines, data warehousing, operational reporting, and interactive dashboards, enabling data-driven academic decision-making.
 
 ---
 
@@ -148,30 +143,8 @@ The ETL pipeline extracts data from multiple OLTP sources (Person, Instructor, P
 ## 📈Sample of Power BI Dashboards
 
 A suite of 25+ interactive dashboards was developed to support decision-making at every organizational level — from executive summaries to granular question-level quality analysis.
-### 🎓 Student Performance Dashboard
-![Student Distribution Overview](images/student_distribution.png)
-Tracks student distribution by branch, department, track, and intake, along with gender balance and enrollment trends — featuring drillthrough into individual student records.
-
-### 📚 Course Analytics Dashboard
-Analyzes course load, hours, and pass rates across the curriculum, with interactive filtering by track and department.
-
-### 👨‍🏫 Instructor Dashboard
-Visualizes instructor workload, course assignments, and department distribution.
-
-### 💼 Employment Dashboard
-Surfaces post-graduation outcomes, including company placements and freelance engagements.
-
-### ✅ Question Quality Dashboard
-![General Exam Results Analysis](D:\ITP_2025\Final project\Screenshot 2025-07-29 213135.png)
-Evaluates exam and question-level quality metrics — pass rates, average grades, and correct-answer percentages by course — enabling continuous exam-bank improvement.
-
-**Key capabilities used across dashboards:**
-- 🔍 Drillthrough into student- and course-level detail
-- 📌 KPI Tracking (pass rate, average grade, highest/lowest scores)
-- 📉 Trend Analysis over academic years
-- 🎛 Interactive Filtering by track, branch, intake, and course
-
----
+![Student Distribution Overview](https://github.com/areejfathy17/ITI-Examination-System/blob/main/Power%20BI%20Dashboards/student%20overview.png)
+![General Exam Results Analysis](https://github.com/areejfathy17/ITI-Examination-System/blob/main/Power%20BI%20Dashboards/General%20Exam.png)
 
 ## 🧰 Technology Stack
 
@@ -187,21 +160,6 @@ Evaluates exam and question-level quality metrics — pass rates, average grades
 | Power BI Analytics | Power BI, DAX | Built 25+ dashboards with KPIs, drillthrough, and trend analysis. |
 | Dashboard Development | Power BI, Tableau | Designed both executive and operational-level visual analytics. |
 | Testing & Validation | Redgate SQL Data Generator, Excel | Generated realistic sample data and validated report/dashboard accuracy. |
-
----
-
-## ✨ Key Features
-
-- 👨‍🎓 **Student Management** — Complete student lifecycle tracking across branches, tracks, and intakes.
-- 👨‍🏫 **Instructor Management** — Course assignments, department mapping, and workload tracking.
-- 📘 **Course Management** — Structured course-topic-track relationships.
-- 🧪 **Automatic Exam Generation** — Rule-based exam assembly from a categorized question bank.
-- ✅ **Automatic Exam Correction** — Automated grading against stored correct answers.
-- 🏢 **Data Warehouse** — Dimensional model supporting fast, scalable analytics.
-- 🔄 **ETL Automation** — SSIS-driven, repeatable data pipelines.
-- 📄 **SSRS Reporting** — Operational, parameterized reports for departmental use.
-- 📊 **Power BI Dashboards** — Executive and operational-level interactive analytics.
-- 🧠 **Decision Support Analytics** — Data-driven insights for academic and administrative decisions.
 
 ---
 
@@ -279,14 +237,6 @@ ITI-Examination-System/
 
 ---
 
-## 🚀 Future Enhancements
-
-- 🔐 Role-Based Dashboards for differentiated access levels
-- 📱 Mobile Dashboard Access for on-the-go reporting
-- 🌐 Embedded Reporting within institutional portals
-- ⏱ Real-Time Analytics via streaming data pipelines
-- 🔮 Predictive Analytics for at-risk student identification
-- 🤖 AI-Powered Insights for automated academic recommendations
 
 ---
 
